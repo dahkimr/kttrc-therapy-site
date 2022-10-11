@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/kttrc-therapy-site/static/css/main.073c9b0a.css",
+    "main.js": "/kttrc-therapy-site/static/js/main.27740730.js",
+    "static/js/787.24181e78.chunk.js": "/kttrc-therapy-site/static/js/787.24181e78.chunk.js",
+    "static/media/logo.svg": "/kttrc-therapy-site/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/kttrc-therapy-site/index.html",
+    "main.073c9b0a.css.map": "/kttrc-therapy-site/static/css/main.073c9b0a.css.map",
+    "main.27740730.js.map": "/kttrc-therapy-site/static/js/main.27740730.js.map",
+    "787.24181e78.chunk.js.map": "/kttrc-therapy-site/static/js/787.24181e78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.27740730.js"
+  ]
+}
