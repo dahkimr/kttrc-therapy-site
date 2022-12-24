@@ -1,0 +1,9 @@
+nav.navbar {
+  padding: 0;
+}
+
+nav .nav-link {
+  color: black;
+  padding-top: 0;
+  padding-bottom: 0;
+}

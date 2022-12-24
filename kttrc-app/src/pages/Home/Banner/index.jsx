@@ -1,6 +1,7 @@
 import React from "react";
 
 import Divider from "../../../components/sweetpotato/atoms/Divider";
+import Navbar from "../../../components/sweetpotato/atoms/Navbar";
 
 import banner from "../../../assets/banner.jpg";
 import styles from "./styles.module.css";
@@ -22,6 +23,9 @@ const Banner = () => (
             </div>
             <div className={styles.divider}>
                 <Divider color="black" />
+            </div>
+            <div className={styles.navbar}>
+                <Navbar />
             </div>
         </div>
         <div className={styles.heroArea}>
