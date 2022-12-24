@@ -15,7 +15,35 @@
     margin: 10px 0;
 }
 
+.heroArea {
+    position: relative;
+}
+
 .image {
     width: 100%;
 }
 
+.bannerText {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;   
+}
+
+.title {
+    font-size: 22px;
+    margin: 0 0 24px 0;
+}
+
+.rightSubtitle {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.rightSubtext {
+    font-size: 18px;
+    line-height: 1.6;
+}
