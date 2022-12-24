@@ -1,5 +1,7 @@
 .header {
     margin: 20px 150px 0 150px;
+    font-family: "Noto Sans Kr";
+    font-size: 14px;
 }
 
 .headerContent {
@@ -13,6 +15,10 @@
 
 .divider {
     margin: 10px 0;
+}
+
+.navbar {
+    margin-bottom: 10px;
 }
 
 .image {

@@ -1,6 +1,7 @@
 import React from "react";
 
 import Divider from "../../../components/sweetpotato/atoms/Divider";
+import Navbar from "../../../components/sweetpotato/atoms/Navbar";
 
 import banner from "../../../assets/banner.jpg";
 import styles from "./styles.module.css";
@@ -16,15 +17,18 @@ const Banner = () => (
                 <div className={styles.contact}>
                     서울 강남구 언주로 118 (도곡동)<br/>
                     ​우성캐릭터 199 오피스텔 1815호<br/>
-                    010.5533.1972<br/>
+                    010-5533-1972<br/>
                     ktpi.souljae@gmail.com<br/>
                 </div>
             </div>
             <div className={styles.divider}>
                 <Divider color="black" />
             </div>
+            <div className={styles.navbar}>
+                <Navbar />
+            </div>
         </div>
-        <img src={banner} className={styles.image} />
+        <img src={banner} className={styles.image} alt="green mountains" />
     </>
 );
 
