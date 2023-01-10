@@ -1,0 +1,12 @@
+.navbar {
+  font-family: "Lora", serif;
+  font-size: 18px;
+}
+
+.lastNavLink {
+  padding-right: 0 !important;
+}
+
+.disabled {
+  color: grey !important;
+}

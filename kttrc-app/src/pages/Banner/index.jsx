@@ -1,9 +1,10 @@
 import React from "react";
 
-import Divider from "../../../components/sweetpotato/atoms/Divider";
-import Navbar from "../../../components/sweetpotato/atoms/Navbar";
+import Divider from "../../components/sweetpotato/atoms/Divider";
+import Navbar from "../Navbar";
+import VerticalDivider from"../../components/sweetpotato/atoms/VerticalDivider";
 
-import banner from "../../../assets/banner.jpg";
+import banner from "../../assets/banner.jpg";
 import styles from "./styles.module.css";
 
 const Banner = () => (
@@ -31,7 +32,7 @@ const Banner = () => (
         <div className={styles.heroArea}>
             <img src={banner} className={styles.image} />
             <div className={styles.bannerText}>
-                <div className={styles.left}>
+                <div className={`${styles.companyBlob} ${styles.left}`}>
                     <h1 className={styles.title}>한국 트라우마 심리치료연구소</h1>
                     <div className={styles.rightSubtext}>
                         관계와 정서 기반으로<br/>
@@ -39,8 +40,11 @@ const Banner = () => (
                         트라우마 심리치료
                     </div>
                 </div>
-                <div className={styles.right}>
-                    <h1 className={styles.rightTitle}>소울재 심리상담소</h1>
+                <div className={styles.verticalDivider}>
+                    <VerticalDivider height="500px" />
+                </div>
+                <div className={`${styles.companyBlob} ${styles.right}`}>
+                    <h1 className={styles.title}>소울재 심리상담소</h1>
                     <div className={styles.rightSubtitle}>소울재 疏鬱齋</div>
                     <div className={styles.rightSubtext}>
                         답답한 마음을 풀어헤치다<br/>

@@ -1,7 +1,6 @@
 .header {
     margin: 20px 150px 0 150px;
-    font-family: "Noto Sans Kr";
-    font-size: 14px;
+    font-family: "Noto Sans Kr", sans-serif;
 }
 
 .headerContent {
@@ -9,8 +8,13 @@
     justify-content: space-between;
 }
 
+.companyName {
+    font-size: 20px;
+}
+
 .contact {
     text-align: right;
+    font-size: 16px;
 }
 
 .divider {
@@ -19,6 +23,7 @@
 
 .heroArea {
     position: relative;
+    font-family: "Noto Sans Kr", sans-serif;
 }
 
 .navbar {
@@ -35,21 +40,32 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
+    justify-content: center;
     text-align: center;
     color: white;   
 }
 
+.companyBlob {
+    margin-top: 100px;
+}
+
 .title {
-    font-size: 22px;
+    font-size: 30px;
+    font-weight: 700;
     margin: 0 0 24px 0;
 }
 
 .rightSubtitle {
-    font-size: 18px;
+    font-size: 24px;
     margin-bottom: 4px;
 }
 
 .rightSubtext {
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1.6;
+}
+
+.verticalDivider {
+    margin: 0 80px
 }
