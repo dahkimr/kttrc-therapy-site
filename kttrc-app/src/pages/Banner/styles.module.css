@@ -1,6 +1,6 @@
 .header {
     margin: 20px 150px 0 150px;
-    font-family: "Noto Sans Kr", sans-serif;
+    font-family: "Noto Serif KR", serif;
 }
 
 .headerContent {
@@ -23,7 +23,7 @@
 
 .heroArea {
     position: relative;
-    font-family: "Noto Sans Kr", sans-serif;
+    font-family: "Noto Serif Kr", serif;
 }
 
 .navbar {
@@ -41,9 +41,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
-    color: white;   
+    color: white;
+    padding: 0 450px;
 }
 
 .companyBlob {
@@ -68,4 +69,8 @@
 
 .verticalDivider {
     margin: 0 80px
+}
+
+.button {
+    margin-top: 20px;
 }

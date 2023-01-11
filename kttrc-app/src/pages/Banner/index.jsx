@@ -6,6 +6,7 @@ import VerticalDivider from"../../components/sweetpotato/atoms/VerticalDivider";
 
 import banner from "../../assets/banner.jpg";
 import styles from "./styles.module.css";
+import Button from "../../components/sweetpotato/atoms/Button";
 
 const Banner = () => (
     <>
@@ -39,6 +40,9 @@ const Banner = () => (
                         Body Mind 통합<br/>
                         트라우마 심리치료
                     </div>
+                    <div className={styles.button}>
+                        <Button text="More Info" />
+                    </div>
                 </div>
                 <div className={styles.verticalDivider}>
                     <VerticalDivider height="500px" />
@@ -50,6 +54,9 @@ const Banner = () => (
                         답답한 마음을 풀어헤치다<br/>
                         답답한 마음을 소통하다<br/>
                         몸 마음 관계를 재계하다
+                    </div>
+                    <div className={styles.button}>
+                        <Button text="More Info" />
                     </div>
                 </div>
             </div>
