@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 const Header = ({ text }) => (
     <div>
         <div className={styles.text}>{ text }</div>
-        <Divider />
+        <Divider width="2px" />
     </div>
 );
 

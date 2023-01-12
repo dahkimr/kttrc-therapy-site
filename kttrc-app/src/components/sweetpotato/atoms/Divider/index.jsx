@@ -1,7 +1,9 @@
 import React from "react";
 
-const Divider = ({ color }) => (
-    <div style={{ borderBottom: `1px solid ${color}`}} />
+import styles from "./styles.module.css";
+
+const Divider = ({ color = "black", width = "1px" }) => (
+    <div style={{ borderBottom: `${width} solid ${color}`}} />
 );
 
 export default Divider;
