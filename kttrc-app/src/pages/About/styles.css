@@ -1,0 +1,13 @@
+.cardContainer {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 250px);
+    gap: 16px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.cardContainer:nth-child(2) {
+    background-color: green !important;
+    color:red;
+}

@@ -1,8 +1,10 @@
 import Header from "../../components/sweetpotato/molecules/Header";
 import Typography from "../../components/sweetpotato/atoms/Typography";
+import Divider from "../../components/sweetpotato/atoms/Divider";
 
 import styles from "./styles.module.css";
 import profile from "../../assets/profile.png";
+import Card from "../../components/sweetpotato/molecules/Card";
 
 const About = () => (
     <div className={styles.container}>
@@ -18,6 +20,50 @@ const About = () => (
                     "
                 />
             </div>
+        </div>
+        <div className={styles.header}>정문 분야</div>
+        <div className={styles.cardContainer}>
+            {/* colors */}
+            {/* 
+            #469845
+            #51881b
+             */}
+            <Card
+                headerText="Somatic Therapy"
+                text="몸과 마음관련댄 상담 등등"
+                color="#395144"
+                buttonText="More Info"
+            />
+            <Card
+                headerText="Somatic Therapy"
+                text="몸과 마음관련댄 상담 등등"
+                color="#4E6C50"
+                buttonText="More Info"
+            />
+            <Card
+                headerText="Somatic Therapy"
+                text="몸과 마음관련댄 상담 등등"
+                color="#AA8B56"
+                buttonText="More Info"
+            />
+            <Card
+                headerText="Somatic Therapy"
+                text="몸과 마음관련댄 상담 등등"
+                color="#AA8B56"
+                buttonText="More Info"
+            />
+            <Card
+                headerText="Somatic Therapy"
+                text="몸과 마음관련댄 상담 등등"
+                color="#395144"
+                buttonText="More Info"
+            />
+            <Card
+                headerText="Somatic Therapy"
+                text="몸과 마음관련댄 상담 등등"
+                color="#4E6C50"
+                buttonText="More Info"
+            />
         </div>
     </div>
 );
