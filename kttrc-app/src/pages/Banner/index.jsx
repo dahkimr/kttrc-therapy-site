@@ -19,7 +19,7 @@ const Banner = () => (
                 <div className={styles.contact}>
                     서울 강남구 언주로 118 (도곡동)<br/>
                     ​우성캐릭터 199 오피스텔 1815호<br/>
-                    010-5533-1972<br/>
+                    (임상번호) 010-5533-1972<br/>
                     healingtraumakorea@gmail.com<br/>
                 </div>
             </div>
@@ -38,7 +38,8 @@ const Banner = () => (
                     <div className={styles.rightSubtext}>
                         관계와 정서 기반으로<br/>
                         Body Mind 통합<br/>
-                        트라우마 심리치료
+                        트라우마 심리치료<br/>
+                        관계 치료
                     </div>
                     <div className={styles.button}>
                         <Button text="More Info" />

@@ -23,11 +23,6 @@ const About = () => (
         </div>
         <div className={styles.header}>정문 분야</div>
         <div className={styles.cardContainer}>
-            {/* colors */}
-            {/* 
-            #469845
-            #51881b
-             */}
             <Card
                 headerText="Somatic Therapy"
                 text="몸과 마음관련댄 상담 등등"
