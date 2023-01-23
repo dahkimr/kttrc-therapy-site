@@ -1,18 +1,17 @@
 import React from "react";
 
 import styles from "./styles.module.css";
-import newStyles from "./styles.css";
+import "./styles.css";
 
 const Navbar = () => (
   <nav className={`${styles.navbar} navbar navbar-expand-sm`}>
     <div className="collapse navbar-collapse">
       <ul className="navbar-nav ms-auto">
         <li className="nav-item">
-          <a className="nav-link" href="#">About</a>
+          <a className="nav-link" href="#aboutme">About</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Contact</a>
-          {/* <a className="nav-link" href="#">Contact</a> */}
+          <a className="nav-link" href="#contact">Contact</a>
         </li>
         {/* <li className="nav-item">
           <a className={`${styles.disabled} nav-link`} href="#">Treatment</a>

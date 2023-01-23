@@ -3,10 +3,11 @@ import React from "react";
 import Divider from "../../components/sweetpotato/atoms/Divider";
 import Navbar from "../Navbar";
 import VerticalDivider from"../../components/sweetpotato/atoms/VerticalDivider";
+import Button from "../../components/sweetpotato/atoms/Button";
 
 import banner from "../../assets/banner.jpg";
 import styles from "./styles.module.css";
-import Button from "../../components/sweetpotato/atoms/Button";
+import "./styles.css";
 
 const Banner = () => (
     <>
@@ -42,7 +43,7 @@ const Banner = () => (
                         관계 치료
                     </div>
                     <div className={styles.button}>
-                        <Button text="More Info" />
+                        <a href="#traumacenter" className="link"><Button text="More Info" /></a>
                     </div>
                 </div>
                 <div className={styles.verticalDivider}>
@@ -57,7 +58,7 @@ const Banner = () => (
                         몸 마음 관계를 재계하다
                     </div>
                     <div className={styles.button}>
-                        <Button text="More Info" />
+                        <a href="#souljae" className="link"><Button text="More Info" /></a>
                     </div>
                 </div>
             </div>

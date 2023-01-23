@@ -7,7 +7,7 @@ import profile from "../../assets/profile.png";
 import Card from "../../components/sweetpotato/molecules/Card";
 
 const About = () => (
-    <div className={styles.container}>
+    <div className={styles.container} id="aboutme">
         <Header text="About Me" />
         <div className={styles.content}>
             <img src={profile} className={styles.image} />
