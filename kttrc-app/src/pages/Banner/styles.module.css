@@ -9,6 +9,23 @@
     justify-content: space-between;
 }
 
+.navbarDivider {
+    margin: 10px 0;
+}
+
+.bannerText {
+    display: flex;
+    background-image: url(../../assets/banner.jpg);
+    font-family: "Noto Serif Kr", serif;
+    width: 100%;
+    min-height: 700px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 150px;
+}
+
 .companyName {
     font-size: 20px;
 }
@@ -16,15 +33,15 @@
 .contact {
     text-align: right;
     font-size: 16px;
+    display: block;
+}
+
+.verticalDivider {
+    margin: 0 80px
 }
 
 .divider {
-    margin: 10px 0;
-}
-
-.heroArea {
-    position: relative;
-    font-family: "Noto Serif Kr", serif;
+    display: none;
 }
 
 .navbar {
@@ -33,23 +50,6 @@
 
 .image {
     width: 100%;
-}
-
-.bannerText {
-    display: flex;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    justify-content: space-evenly;
-    text-align: center;
-    color: white;
-    padding: 0 150px;
-}
-
-.companyBlob {
-    margin-top: 100px;
 }
 
 .title {
@@ -68,10 +68,26 @@
     line-height: 1.6;
 }
 
-.verticalDivider {
-    margin: 0 80px
-}
-
 .button {
     margin-top: 20px;
+}
+
+@media (max-width: 1140px) {
+    .contact {
+        display: none;
+    }
+
+    .bannerText {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .divider {
+        display: block;
+        width: 100%;
+    }
+
+    .verticalDivider {
+        display: none;
+    }
 }

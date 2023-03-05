@@ -5,7 +5,6 @@ import Navbar from "../Navbar";
 import VerticalDivider from"../../components/sweetpotato/atoms/VerticalDivider";
 import Button from "../../components/sweetpotato/atoms/Button";
 
-import banner from "../../assets/banner.jpg";
 import styles from "./styles.module.css";
 import "./styles.css";
 
@@ -24,7 +23,7 @@ const Banner = () => (
                     healingtraumakorea@gmail.com<br/>
                 </div>
             </div>
-            <div className={styles.divider}>
+            <div className={styles.navbarDivider}>
                 <Divider color="black" />
             </div>
             <div className={styles.navbar}>
@@ -32,7 +31,6 @@ const Banner = () => (
             </div>
         </div>
         <div className={styles.heroArea}>
-            <img src={banner} className={styles.image} />
             <div className={styles.bannerText}>
                 <div className={`${styles.companyBlob} ${styles.left}`}>
                     <h1 className={styles.title}>한국 트라우마 심리치료연구소</h1>
@@ -49,7 +47,10 @@ const Banner = () => (
                 <div className={styles.verticalDivider}>
                     <VerticalDivider height="500px" />
                 </div>
-                <div className={`${styles.companyBlob} ${styles.right}`}>
+                <div className={styles.divider}>
+                    <Divider color="white" />
+                </div>
+                <div className={styles.right}>
                     <h1 className={styles.title}>소울재 심리상담소</h1>
                     <div className={styles.rightSubtitle}>소울재 疏鬱齋</div>
                     <div className={styles.rightSubtext}>
