@@ -1,30 +1,24 @@
 import React from "react";
+import BSNavbar from "react-bootstrap/Navbar";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
 import styles from "./styles.module.css";
 import "./styles.css";
 
 const Navbar = () => (
-  <nav className={`${styles.navbar} navbar navbar-expand-sm`}>
-    <div className="collapse navbar-collapse">
-      <ul className="navbar-nav ms-auto">
-        <li className="nav-item">
-          <a className="nav-link" href="#aboutme">About</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#contact">Contact</a>
-        </li>
-        {/* <li className="nav-item">
-          <a className={`${styles.disabled} nav-link`} href="#">Treatment</a>
-        </li>
-        <li className="nav-item">
-          <a className={`${styles.disabled} nav-link`} href="#">Books</a>
-        </li>
-        <li className="nav-item">
-          <a className={`${styles.disabled} ${styles.lastNavLink} nav-link`} href="#">Healing Corner</a>
-        </li> */}
-      </ul>
-    </div>
-  </nav>
+    <BSNavbar bg="light" expand="lg">
+        <Container>
+            <BSNavbar.Toggle aria-controls="basic-navbar-nav" />
+            <BSNavbar.Collapse id="basic-navbar-nav">
+                <Nav className="me-auto">
+                    <Nav.Link href="#aboutme">About</Nav.Link>
+                    <Nav.Link href="#contact">Contact</Nav.Link>
+                </Nav>
+            </BSNavbar.Collapse>
+        </Container>
+    </BSNavbar>
 );
 
 export default Navbar;
