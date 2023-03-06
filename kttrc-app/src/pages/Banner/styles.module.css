@@ -1,12 +1,13 @@
 .header {
     padding-top: 20px;
-    margin: 0 150px 0 150px;
+    margin: 0 10%;
     font-family: "Noto Serif KR", serif;
 }
 
 .headerContent {
     display: flex;
     justify-content: space-between;
+    font-size: calc(0.5rem + 0.6vw);
 }
 
 .navbarDivider {
@@ -27,13 +28,12 @@
 }
 
 .companyName {
-    font-size: 20px;
+    font-size: calc(0.7rem + 0.6vw);
 }
 
 .contact {
     text-align: right;
-    font-size: 16px;
-    display: block;
+    font-size: calc(0.5rem + 0.6vw);
 }
 
 .verticalDivider {
@@ -73,8 +73,12 @@
 }
 
 @media (max-width: 1140px) {
-    .contact {
+    .companyName {
         display: none;
+    }
+
+    .contact {
+        text-align: left;
     }
 
     .bannerText {
