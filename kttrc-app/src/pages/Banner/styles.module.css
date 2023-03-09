@@ -17,6 +17,8 @@
 .bannerText {
     display: flex;
     background-image: url(../../assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: "Noto Serif Kr", serif;
     width: 100%;
     min-height: 700px;
@@ -82,7 +84,7 @@
     }
 
     .bannerText {
-        flex-wrap: wrap;
+        flex-direction: column;
         padding: 0 5%;
     }
 
