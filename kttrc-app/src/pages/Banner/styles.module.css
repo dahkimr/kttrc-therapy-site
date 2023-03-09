@@ -1,6 +1,6 @@
 .header {
     padding-top: 20px;
-    margin: 0 10%;
+    margin: 0 5%;
     font-family: "Noto Serif KR", serif;
 }
 
@@ -44,7 +44,7 @@
     display: none;
 }
 
-.navbar {
+.navbarContainer {
     margin-bottom: 10px;
 }
 
@@ -53,18 +53,18 @@
 }
 
 .title {
-    font-size: 30px;
+    font-size: calc(1.5rem + 0.6vw);
     font-weight: 700;
     margin: 0 0 24px 0;
 }
 
-.rightSubtitle {
-    font-size: 24px;
+.subtitle {
+    font-size: calc(1.2rem + 0.6vw);
     margin-bottom: 4px;
 }
 
-.rightSubtext {
-    font-size: 24px;
+.subtext {
+    font-size: calc(1rem + 0.6vw);
     line-height: 1.6;
 }
 
@@ -83,7 +83,7 @@
 
     .bannerText {
         flex-wrap: wrap;
-        padding: 0;
+        padding: 0 5%;
     }
 
     .divider {
@@ -95,3 +95,15 @@
         display: none;
     }
 }
+
+@media (max-width: 768px) {
+    .navbarDivider {
+      display: none;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+  }

@@ -26,7 +26,7 @@ const Banner = () => (
             <div className={styles.navbarDivider}>
                 <Divider color="black" />
             </div>
-            <div className={styles.navbar}>
+            <div className={styles.navbarContainer}>
                 <Navbar />
             </div>
         </div>
@@ -34,7 +34,7 @@ const Banner = () => (
             <div className={styles.bannerText}>
                 <div className={`${styles.companyBlob} ${styles.left}`}>
                     <h1 className={styles.title}>한국 트라우마 심리치료연구소</h1>
-                    <div className={styles.rightSubtext}>
+                    <div className={styles.subtext}>
                         관계와 정서 기반으로<br/>
                         Body Mind 통합<br/>
                         트라우마 심리치료<br/>
@@ -52,8 +52,8 @@ const Banner = () => (
                 </div>
                 <div className={styles.right}>
                     <h1 className={styles.title}>소울재 심리상담소</h1>
-                    <div className={styles.rightSubtitle}>소울재 疏鬱齋</div>
-                    <div className={styles.rightSubtext}>
+                    <div className={styles.subtitle}>소울재 疏鬱齋</div>
+                    <div className={styles.subtext}>
                         답답한 마음을 풀어헤치다<br/>
                         답답한 마음을 소통하다<br/>
                         몸 마음 관계를 재계하다

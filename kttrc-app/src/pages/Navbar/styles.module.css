@@ -1,6 +1,12 @@
 .navbar {
   font-family: "Noto Serif KR", serif;
-  font-size: 18px;
+  font-size: calc(0.7rem + 0.6vw);
+}
+
+.container {
+  padding: 0 !important;
+  margin: 0 !important;
+  max-width: 1900px !important;
 }
 
 .lastNavLink {

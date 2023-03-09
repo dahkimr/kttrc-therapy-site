@@ -8,13 +8,13 @@ import styles from "./styles.module.css";
 import "./styles.css";
 
 const Navbar = () => (
-    <BSNavbar bg="light" expand="lg">
-        <Container>
+    <BSNavbar className={styles.navbar} expand="md">
+        <Container className={styles.container}>
             <BSNavbar.Toggle aria-controls="basic-navbar-nav" />
             <BSNavbar.Collapse id="basic-navbar-nav">
-                <Nav className="me-auto">
+                <Nav className="ms-auto">
                     <Nav.Link href="#aboutme">About</Nav.Link>
-                    <Nav.Link href="#contact">Contact</Nav.Link>
+                    <Nav.Link href="#contact" className={styles.lastNavLink}>Contact</Nav.Link>
                 </Nav>
             </BSNavbar.Collapse>
         </Container>
