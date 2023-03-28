@@ -45,7 +45,7 @@ const Banner = () => (
                     </div>
                 </div>
                 <div className={styles.verticalDivider}>
-                    <VerticalDivider height="500px" />
+                    <VerticalDivider height="450px" />
                 </div>
                 <div className={styles.divider}>
                     <Divider color="white" />

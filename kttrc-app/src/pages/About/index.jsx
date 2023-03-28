@@ -6,6 +6,13 @@ import styles from "./styles.module.css";
 import profile from "../../assets/profile.png";
 import Card from "../../components/sweetpotato/molecules/Card";
 
+import Leaf1 from "../../assets/leaf1.jpg";
+import Leaf2 from "../../assets/leaf2.jpg";
+import Leaf3 from "../../assets/leaf3.jpg";
+import Leaf4 from "../../assets/leaf4.jpg";
+import Leaf5 from "../../assets/leaf5.jpg";
+import Leaf6 from "../../assets/leaf6.jpg";
+
 const About = () => (
     <div className={styles.container} id="aboutme">
         <Header text="About Me" />
@@ -26,38 +33,44 @@ const About = () => (
             <Card
                 headerText="Somatic Therapy"
                 text="몸과 마음관련댄 상담 등등"
-                color="#395144"
+                color="rgba(158, 121, 0, 0.6)"
                 buttonText="More Info"
+                img={Leaf1}
             />
             <Card
                 headerText="Somatic Therapy"
                 text="몸과 마음관련댄 상담 등등"
-                color="#4E6C50"
+                color="rgba(111, 137, 7, 0.6)"
                 buttonText="More Info"
+                img={Leaf2}
             />
             <Card
                 headerText="Somatic Therapy"
                 text="몸과 마음관련댄 상담 등등"
-                color="#AA8B56"
+                color="rgba(43, 79, 8, 0.6)"
                 buttonText="More Info"
+                img={Leaf3}
             />
             <Card
                 headerText="Somatic Therapy"
                 text="몸과 마음관련댄 상담 등등"
-                color="#AA8B56"
+                color="rgba(111, 137, 7, 0.6)"
                 buttonText="More Info"
+                img={Leaf4}
             />
             <Card
                 headerText="Somatic Therapy"
                 text="몸과 마음관련댄 상담 등등"
-                color="#395144"
+                color="rgba(43, 79, 8, 0.6)"
                 buttonText="More Info"
+                img={Leaf5}
             />
             <Card
                 headerText="Somatic Therapy"
                 text="몸과 마음관련댄 상담 등등"
-                color="#4E6C50"
+                color="rgba(158, 121, 0, 0.6)"
                 buttonText="More Info"
+                img={Leaf6}
             />
         </div>
     </div>
