@@ -11,12 +11,12 @@ import Contact from "./pages/Contact";
 const App = () => (
     <div className={styles.container}>
         <Banner />
-        <div className={styles.pages}>
+        {/* <div className={styles.pages}>
             <About />
             <TraumaCenter />
             <Souljae />
             <Contact />
-        </div>
+        </div> */}
     </div>
 );
 

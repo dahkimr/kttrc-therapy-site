@@ -26,9 +26,9 @@ const Banner = () => (
             <div className={styles.navbarDivider}>
                 <Divider color="black" />
             </div>
-            <div className={styles.navbarContainer}>
+            {/* <div className={styles.navbarContainer}>
                 <Navbar />
-            </div>
+            </div> */}
         </div>
         <div className={styles.heroArea}>
             <div className={styles.bannerText}>
@@ -40,9 +40,9 @@ const Banner = () => (
                         트라우마 심리치료<br/>
                         관계 치료
                     </div>
-                    <div className={styles.button}>
+                    {/* <div className={styles.button}>
                         <a href="#traumacenter" className="link"><Button text="More Info" /></a>
-                    </div>
+                    </div> */}
                 </div>
                 <div className={styles.verticalDivider}>
                     <VerticalDivider height="450px" />
@@ -58,9 +58,9 @@ const Banner = () => (
                         답답한 마음을 소통하다<br/>
                         몸 마음 관계를 재계하다
                     </div>
-                    <div className={styles.button}>
+                    {/* <div className={styles.button}>
                         <a href="#souljae" className="link"><Button text="More Info" /></a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
