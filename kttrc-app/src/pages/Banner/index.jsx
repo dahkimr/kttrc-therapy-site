@@ -19,7 +19,7 @@ const Banner = () => (
                 <div className={styles.contact}>
                     서울 강남구 언주로 118 (도곡동)<br/>
                     ​우성캐릭터 199 오피스텔 1815호<br/>
-                    [대표전화] 010-5533-1972<br/>
+                    [대표전화] 010.5533.1972<br/>
                     healingtraumakorea@gmail.com<br/>
                 </div>
             </div>
